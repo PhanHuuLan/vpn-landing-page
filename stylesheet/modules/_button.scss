@@ -1,0 +1,38 @@
+.btn {
+  padding: 13px 45px;
+  border-radius: 25px;
+  font-weight: 500;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-align: center;
+  white-space: nowrap;
+  &.btn-outline {
+    border: 2px solid $primary-color;
+    color: $primary-color;
+    &:hover {
+      background-color: $primary-color;
+      color: $color-white;
+    }
+  }
+  &.btn-primary {
+    position: relative;
+    border-radius: 10px;
+    background-color: $primary-color;
+    color: #FFFFFF;
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 50%;
+      width: 90%;
+      height: 100%;
+      transform: translate(-50%,50%);
+      background: rgba(245, 56, 56, 0.35);
+      filter: blur(54px);
+      border-radius: 10px;
+    }
+  }
+  
+
+}

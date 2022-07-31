@@ -1,0 +1,27 @@
+.section-network {
+  padding: 150px 0 50px 0;
+  .network-header {
+    @include flex-align-center;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 150px;
+    .network-title {
+      font-size: 35px;
+      font-weight: 500;
+      line-height: 50px;
+      max-width: 33%;
+      padding-bottom: 20px;
+      color: $secondary-text;
+    }
+    .network-desc {
+      max-width: 50%;
+      .text-desc {
+        font-weight: 500;
+      }
+    }
+  }
+  .network-list {
+    @include flex-align-center;
+    justify-content: center;
+  }
+}

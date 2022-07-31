@@ -1,0 +1,19 @@
+.section-banner {
+  padding-bottom: 50px;
+  .banner-content {
+    align-items: center;
+    color: $secondary-text;
+    .banner-heading {
+      font-weight: 500;
+      font-size: 50px;
+      padding-bottom: 20px;
+    }
+    .banner-desc {
+      color: $primary-text;
+      padding-bottom: 50px;
+      .text-desc {
+        font-weight: 500;
+      }
+    }
+  }
+}

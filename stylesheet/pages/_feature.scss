@@ -1,0 +1,31 @@
+.section-feature {
+  padding: 53px 0 130px 0;
+  .wrapper-feature {
+    display: flex;
+    align-items: flex-end;
+    .feature-content {
+      max-width: 585px;
+      padding-left: 170px;
+      .title {
+        font-size: 35px;
+        font-weight: 500;
+        padding-bottom: 20px;
+        line-height: 50px;
+        color: $secondary-text;
+      }
+      .feature-desc {
+        line-height: 30px;
+        padding-bottom: 20px;
+      }
+    }
+    .feature-item {
+      display: flex;
+      align-items: center;
+      padding-bottom: 15px;
+      .feature-note {
+        padding-left: 10px;
+      }
+    }
+  }
+
+}
