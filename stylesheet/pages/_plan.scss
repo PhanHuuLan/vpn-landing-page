@@ -1,0 +1,71 @@
+.section-plan {
+  .plan-header {
+    padding: 80px 0 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .plan-title {
+      font-size: 35px;
+      font-weight: 500;
+      line-height: 50px;
+      padding-bottom: 20px;
+      color: $secondary-text;
+    }
+    .plan-desc {
+      max-width: 95%;
+      text-align: center;
+    }
+  }
+  .plan-list {
+    .plan-item  {
+      @include flex-align-center;
+      flex-direction: column;
+      text-align: center;
+      .wrapper-plan-item {
+        position:relative;
+        padding: 79px 50px;
+        border: 2px solid $color-gray;
+        border-radius: 5px;
+        min-width: 330px;
+        .plan-image {
+          text-align: -webkit-center;
+        }
+        height: 100%;
+        .plan-content {
+          padding: 20px 0;
+          font-size: 18px;
+          font-weight: 500;
+          color: $secondary-text;
+        }
+        .plan-details-content {
+          padding-left: 22px;
+          padding-bottom: 50px;
+          .plan-detail-wrapper {
+            @include flex-align-center;
+            padding: 10px 0;
+            .plan-text {
+              padding-left: 20px;
+            }
+          }
+        }
+        .plan-form-wrapper { 
+          position: absolute;
+          bottom: 0;
+          text-align: center;
+          left: 0;
+          right: 0;
+          padding: 30px 0 50px 0;
+          .plan-price {
+            padding: 50px 0 20px 0;
+            font-size: 25px;
+            font-weight: 500;
+            color: $secondary-text;
+          }
+        }
+        &:hover {
+          border: 2px solid $primary-color;
+        }
+      }
+    }
+  }
+}

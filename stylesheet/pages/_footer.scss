@@ -1,0 +1,39 @@
+.footer {
+  background-color: $secondary-color;
+  padding-top: 180px;
+  padding-bottom: 100px;
+  .footer-left {
+    .footer-desc {
+      max-width: 60%;
+      padding: 15px 0;
+      .text-desc {
+        font-weight: 500;
+      }
+    }
+    .socail-list {
+      padding: 15px 0 0 0;
+      display: flex;
+      margin-left: -20px;
+    }
+    .footer-copyright {
+      color: #AFB5C0;
+      .text-copyright {
+        font-weight: 500;
+      }
+    }
+  }
+  .footer-list {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    .footer-title {
+      font-size: 18px;
+      font-weight: 500;
+      padding-bottom: 15px;
+      color: $secondary-text;
+    }
+    .footer-text {
+      padding: 5px 0;
+    }
+  }
+}
