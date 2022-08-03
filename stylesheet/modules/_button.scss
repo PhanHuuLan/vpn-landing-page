@@ -36,3 +36,26 @@
   
 
 }
+.slick-arrow {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  text-align: center;
+  white-space: nowrap;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  transform: translateY(50%);
+  bottom: 0;
+}
+.slick-prev {
+  background-color: #FFFFFF;
+  border: 1px solid $primary-color;
+}
+.slick-next {
+  background-color: $primary-color;
+}

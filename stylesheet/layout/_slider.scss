@@ -1,0 +1,34 @@
+.slick-slider {
+  position: relative;
+  display: block;
+  .slick-prev {
+    right: 80px;
+  }
+  .slick-next {
+    right: 0;
+    // bottom: 0;
+  }
+}
+.slick-dots {
+  display: flex;
+  align-items: center;
+  gap: 0 15px;
+  padding-top: 60px;
+  button {
+    font-size: 0;
+    width: 15px;
+    height: 15px;
+    background-color: #dde0e4;
+    border: none;
+    border-radius: 50%;
+    transition: all 0.2s linear;
+
+  }
+  .slick-active {
+    button {
+      width: 35px;
+      border-radius: 10px;
+      background-color: $primary-color;
+      }
+    }
+}
