@@ -1,6 +1,7 @@
 #### Phan Huu Lan
 > VNP Landing Page
 - Code layout VPN Landing Page
+- Slider Customer
 - https://www.figma.com/file/wWxkRqhXfLfBXNB7iqBtOu/FREEBIES-Landingpage-LaslesVPN-(Community)
 #### Description
 > Code HTML and Sass
